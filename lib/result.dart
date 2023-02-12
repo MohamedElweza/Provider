@@ -17,7 +17,7 @@ class Result extends StatelessWidget {
       leading: PopupMenuButton(
         icon: const CircleAvatar(
           backgroundImage: NetworkImage(
-              'Provider.of<MyProvider>(context).image.toString()',
+              Provider.of<MyProvider>(context).image.toString(),
           ),
           backgroundColor: Colors.red,
         ),
